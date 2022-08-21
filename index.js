@@ -8,9 +8,9 @@ const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
 // 用户主动输入信息
-const SOURCE_PATH = path.join(__dirname, `source/林俊傑精選歌曲30首.mp3`);
+const SOURCE_PATH = path.join(__dirname, `source/《胡彦斌》精选串烧集，曾经最喜欢的实力歌手，再听一次回味无穷！.mp3`);
 const TARGET_PATH = path.join(__dirname, `target`);
-const MUSIC_LIST = (await readFile("./presets/linjunjie.txt")).toString();
+const MUSIC_LIST = (await readFile("./presets/sample.txt")).toString();
 const extname = path.extname(SOURCE_PATH);
 
 async function __init__() {
