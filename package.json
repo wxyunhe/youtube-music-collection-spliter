@@ -1,0 +1,22 @@
+{
+  "name": "split",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "bin": "index.js",
+  "scripts": {
+    "start": "node ./index.js",
+    "get:ffmpeg": "node ./open.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.0.1",
+    "execa": "^6.1.0"
+  },
+  "devDependencies": {
+    "open": "^8.4.0"
+  }
+}
